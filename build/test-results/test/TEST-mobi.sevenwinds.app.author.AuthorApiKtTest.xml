@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mobi.sevenwinds.app.author.AuthorApiKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-17T04:54:50" hostname="DESKTOP-R8V6DCS" time="1.57">
+  <properties/>
+  <testcase name="testAuthorCreation()" classname="mobi.sevenwinds.app.author.AuthorApiKtTest" time="1.57"/>
+  <system-out><![CDATA[2025-01-17 07:54:47,842 [Test worker] INFO   Application - Autoreload is disabled because the development mode is off.
+2025-01-17 07:54:48,284 [Test worker] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 07:54:48,412 [Test worker] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 07:54:48,433 [Test worker] INFO   o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 07:54:48,496 [Test worker] INFO   o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 07:54:48,563 [Test worker] INFO   o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.040s)
+2025-01-17 07:54:48,634 [Test worker] INFO   o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.016s)
+2025-01-17 07:54:48,648 [Test worker] INFO   o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 07:54:48,676 [Test worker] INFO   o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 07:54:48,676 [Test worker] WARN   o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 07:54:48,682 [Test worker] INFO   o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 07:54:48,698 [Test worker] INFO   o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+Swagger available at http://localhost:8080/swagger-ui/index.html?url=/openapi.json
+2025-01-17 07:54:48,850 [Test worker] INFO   org.reflections.Reflections - Reflections took 104 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 07:54:49,898 [Test worker] INFO   Application - Responding at http://127.0.0.1:8080
+2025-01-17 07:54:49,898 [Test worker] INFO   Application - Application started in 2.078 seconds.
+2025-01-17 07:54:49,899 [Test worker] INFO   Application - Application started: io.ktor.application.Application@444ce8b5
+2025-01-17 07:54:52,389 [eventLoopGroupProxy-4-1 @call-handler#3] INFO   Application - 200 OK: POST - /author/add
+Московкин Олег Романович
+2025-01-17T07:54:52.303+03:00
+2025-01-17 07:54:52,475 [eventLoopGroupProxy-4-2 @call-handler#6] INFO   Application - 404 Not Found: GET - /author/
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

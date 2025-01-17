@@ -1,0 +1,1168 @@
+2025-01-17 03:33:46,928 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 03:33:47,428 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 03:33:47,584 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 03:33:47,610 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 03:33:47,689 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 03:33:47,780 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.047s)
+2025-01-17 03:33:47,854 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.023s)
+2025-01-17 03:33:47,866 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 03:33:47,902 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 03:33:47,902 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 03:33:47,909 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 03:33:47,932 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.035s)
+2025-01-17 03:33:48,140 [Test worker] INFO  org.reflections.Reflections - Reflections took 131 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 03:45:37,141 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 03:45:37,578 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 03:45:37,817 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 03:45:37,838 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 03:45:37,903 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 03:45:37,965 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.033s)
+2025-01-17 03:45:38,035 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 03:45:38,045 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 03:45:38,073 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 03:45:38,073 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 03:45:38,078 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 03:45:38,095 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.024s)
+2025-01-17 03:45:38,248 [Test worker] INFO  org.reflections.Reflections - Reflections took 103 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 03:45:39,289 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 03:45:39,289 [Test worker] INFO  Application - Application started in 2.171 seconds.
+2025-01-17 03:45:39,290 [Test worker] INFO  Application - Application started: io.ktor.application.Application@332ab49
+2025-01-17 03:45:41,914 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:45:42,004 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:45:42,030 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:45:42,055 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:45:42,079 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:45:42,157 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 03:45:42,220 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@332ab49
+2025-01-17 03:45:42,221 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@332ab49
+2025-01-17 03:49:49,352 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 03:49:49,792 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 03:49:49,919 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 03:49:49,939 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 03:49:50,003 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 03:49:50,060 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.032s)
+2025-01-17 03:49:50,129 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 03:49:50,140 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 03:49:50,166 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 03:49:50,167 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 03:49:50,173 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 03:49:50,190 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 03:49:50,331 [Test worker] INFO  org.reflections.Reflections - Reflections took 97 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 03:49:51,380 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 03:49:51,381 [Test worker] INFO  Application - Application started in 2.05 seconds.
+2025-01-17 03:49:51,381 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 03:49:53,799 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:49:53,884 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:49:53,911 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:49:53,935 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:49:53,956 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 03:49:54,033 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 03:49:54,077 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 03:49:54,078 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:20:20,808 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:20:21,249 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:20:21,379 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:20:21,400 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:20:21,463 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:20:21,525 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.035s)
+2025-01-17 04:20:21,598 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 04:20:21,609 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:20:21,635 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:20:21,636 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:20:21,642 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:20:21,659 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 04:20:21,823 [Test worker] INFO  org.reflections.Reflections - Reflections took 109 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:30:50,964 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:30:51,425 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:30:51,554 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:30:51,575 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:30:51,742 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:30:51,798 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.030s)
+2025-01-17 04:30:51,864 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 04:30:51,874 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:30:51,902 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:30:51,902 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:30:51,907 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:30:51,926 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 04:30:52,083 [Test worker] INFO  org.reflections.Reflections - Reflections took 110 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:30:53,133 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:30:53,133 [Test worker] INFO  Application - Application started in 2.195 seconds.
+2025-01-17 04:30:53,134 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 04:30:55,599 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:30:55,687 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:30:55,714 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:30:55,738 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:30:55,761 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:30:55,837 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:30:55,885 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 04:30:55,886 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:33:08,514 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:33:08,955 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:33:09,082 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:33:09,103 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:33:09,171 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:33:09,230 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.032s)
+2025-01-17 04:33:09,404 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 04:33:09,415 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:33:09,439 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:33:09,440 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:33:09,445 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:33:09,461 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.024s)
+2025-01-17 04:33:09,603 [Test worker] INFO  org.reflections.Reflections - Reflections took 97 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:33:10,636 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:33:10,636 [Test worker] INFO  Application - Application started in 2.143 seconds.
+2025-01-17 04:33:10,637 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 04:33:13,134 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:13,217 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:13,243 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:13,270 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:13,294 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:13,375 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:33:13,443 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 04:33:13,444 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:33:44,093 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:33:44,538 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:33:44,663 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:33:44,683 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:33:44,747 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:33:44,803 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 04:33:44,859 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 04:33:44,870 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:33:44,895 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:33:44,895 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:33:44,901 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:33:44,919 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 04:33:45,064 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:33:46,090 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:33:46,090 [Test worker] INFO  Application - Application started in 2.019 seconds.
+2025-01-17 04:33:46,091 [Test worker] INFO  Application - Application started: io.ktor.application.Application@2dd6b021
+2025-01-17 04:33:48,542 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:48,629 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:48,654 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:48,679 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:48,701 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:33:48,774 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:33:48,832 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@2dd6b021
+2025-01-17 04:33:48,833 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@2dd6b021
+2025-01-17 04:35:57,157 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:35:57,597 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:35:57,726 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:35:57,746 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:35:57,810 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:35:57,869 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.032s)
+2025-01-17 04:35:57,937 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 04:35:57,947 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:35:57,971 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:35:57,972 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:35:57,977 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:35:57,992 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.023s)
+2025-01-17 04:35:58,143 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:35:59,179 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:35:59,179 [Test worker] INFO  Application - Application started in 2.043 seconds.
+2025-01-17 04:35:59,179 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 04:36:01,683 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:36:01,769 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:36:01,795 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:36:01,820 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:36:01,842 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:36:01,916 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:36:01,976 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 04:36:01,977 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:42:06,779 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:42:07,216 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:42:07,343 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:42:07,364 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:42:07,427 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:42:07,484 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 04:42:07,550 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 04:42:07,560 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:42:07,587 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:42:07,588 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:42:07,593 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:42:07,610 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 04:42:07,758 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:42:08,783 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:42:08,784 [Test worker] INFO  Application - Application started in 2.028 seconds.
+2025-01-17 04:42:08,784 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 04:42:11,228 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:42:11,318 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:42:11,343 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:42:11,368 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:42:11,391 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:42:11,471 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:42:11,533 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 04:42:11,534 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:42:56,195 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:42:56,690 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:42:56,865 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:42:56,889 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:42:56,960 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:42:57,024 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.035s)
+2025-01-17 04:42:57,092 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 04:42:57,104 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:42:57,134 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:42:57,135 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:42:57,142 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:42:57,160 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.028s)
+2025-01-17 04:42:57,321 [Test worker] INFO  org.reflections.Reflections - Reflections took 112 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:42:58,375 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:42:58,375 [Test worker] INFO  Application - Application started in 2.211 seconds.
+2025-01-17 04:42:58,376 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5a20e181
+2025-01-17 04:43:00,824 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:00,909 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:00,934 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:00,958 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:00,981 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:01,003 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:43:01,079 [eventLoopGroupProxy-4-7 @call-handler#21] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:43:01,133 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5a20e181
+2025-01-17 04:43:01,135 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5a20e181
+2025-01-17 04:44:37,811 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:44:38,255 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:44:38,383 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:44:38,406 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:44:38,471 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:44:38,537 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.035s)
+2025-01-17 04:44:38,598 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 04:44:38,611 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:44:38,639 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:44:38,639 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:44:38,644 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:44:38,661 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 04:44:38,806 [Test worker] INFO  org.reflections.Reflections - Reflections took 98 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:44:39,843 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:44:39,844 [Test worker] INFO  Application - Application started in 2.054 seconds.
+2025-01-17 04:44:39,844 [Test worker] INFO  Application - Application started: io.ktor.application.Application@444ce8b5
+2025-01-17 04:44:42,328 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 04:44:42,416 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 04:44:42,469 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@444ce8b5
+2025-01-17 04:44:42,470 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@444ce8b5
+2025-01-17 04:48:26,717 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:48:27,172 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:48:27,416 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:48:27,436 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:48:27,506 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:48:27,567 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 04:48:27,731 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 04:48:27,741 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:48:27,768 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:48:27,768 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:48:27,774 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:48:27,790 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 04:48:27,931 [Test worker] INFO  org.reflections.Reflections - Reflections took 96 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:48:28,987 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:48:28,988 [Test worker] INFO  Application - Application started in 2.291 seconds.
+2025-01-17 04:48:28,988 [Test worker] INFO  Application - Application started: io.ktor.application.Application@444ce8b5
+2025-01-17 04:48:31,551 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 04:48:31,644 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 04:48:31,681 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@444ce8b5
+2025-01-17 04:48:31,682 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@444ce8b5
+2025-01-17 04:48:35,761 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:48:36,200 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:48:36,328 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:48:36,348 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:48:36,515 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:48:36,576 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.033s)
+2025-01-17 04:48:36,635 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 04:48:36,645 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:48:36,671 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:48:36,671 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:48:36,677 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:48:36,693 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 04:48:36,838 [Test worker] INFO  org.reflections.Reflections - Reflections took 99 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:48:37,893 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:48:37,893 [Test worker] INFO  Application - Application started in 2.156 seconds.
+2025-01-17 04:48:37,894 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 04:48:40,441 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 04:48:40,527 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 04:48:40,563 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 04:48:40,564 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 04:51:09,921 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:51:10,361 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:51:10,487 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:51:10,508 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:51:10,575 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:51:10,634 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 04:51:10,810 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 04:51:10,822 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:51:10,849 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:51:10,849 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:51:10,855 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:51:10,872 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 04:51:11,016 [Test worker] INFO  org.reflections.Reflections - Reflections took 98 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:51:12,074 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:51:12,074 [Test worker] INFO  Application - Application started in 2.174 seconds.
+2025-01-17 04:51:12,074 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 04:51:14,590 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 04:51:14,677 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 04:51:14,731 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:51:14,759 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:51:14,826 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:51:14,887 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 04:51:14,888 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 04:52:51,494 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 04:52:51,932 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 04:52:52,071 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 04:52:52,092 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 04:52:52,260 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 04:52:52,318 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 04:52:52,494 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 04:52:52,505 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 04:52:52,530 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 04:52:52,531 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 04:52:52,536 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 04:52:52,554 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 04:52:52,706 [Test worker] INFO  org.reflections.Reflections - Reflections took 103 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 04:52:53,725 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 04:52:53,725 [Test worker] INFO  Application - Application started in 2.252 seconds.
+2025-01-17 04:52:53,726 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 04:52:56,215 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 04:52:56,313 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 04:52:56,369 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 04:52:56,448 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 04:52:56,521 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 04:52:56,522 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 05:06:06,337 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:06:06,780 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:06:06,913 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:06:06,936 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:06:07,007 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:06:07,069 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 05:06:07,128 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 05:06:07,141 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:06:07,169 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:06:07,169 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:06:07,174 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:06:07,192 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 05:06:07,335 [Test worker] INFO  org.reflections.Reflections - Reflections took 96 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:06:08,362 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:06:08,363 [Test worker] INFO  Application - Application started in 2.047 seconds.
+2025-01-17 05:06:08,363 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 05:06:10,880 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:06:10,977 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 05:06:11,039 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:06:11,117 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:06:11,191 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 05:06:11,192 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 05:07:18,865 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:07:19,305 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:07:19,438 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:07:19,461 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:07:19,527 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:07:19,590 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.033s)
+2025-01-17 05:07:19,652 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 05:07:19,662 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:07:19,688 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:07:19,688 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:07:19,693 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:07:19,709 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.023s)
+2025-01-17 05:07:19,856 [Test worker] INFO  org.reflections.Reflections - Reflections took 99 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:07:20,904 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:07:20,904 [Test worker] INFO  Application - Application started in 2.064 seconds.
+2025-01-17 05:07:20,905 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 05:07:23,410 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:07:23,496 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 05:07:23,549 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:07:23,620 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:07:23,691 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 05:07:23,692 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 05:10:10,011 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:10:10,478 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:10:10,608 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:10:10,628 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:10:10,695 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:10:10,754 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 05:10:10,825 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 05:10:10,835 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:10:10,863 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:10:10,863 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:10:10,869 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:10:10,886 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:10:11,035 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:10:12,083 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:10:12,084 [Test worker] INFO  Application - Application started in 2.094 seconds.
+2025-01-17 05:10:12,084 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 05:10:14,635 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:10:14,719 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 05:10:14,770 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:10:14,840 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:10:14,909 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 05:10:14,910 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 05:11:11,804 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:11:12,252 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:11:12,393 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:11:12,415 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:11:12,590 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:11:12,645 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.030s)
+2025-01-17 05:11:12,709 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 05:11:12,721 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:11:12,750 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:11:12,750 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:11:12,756 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:11:12,773 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:11:12,923 [Test worker] INFO  org.reflections.Reflections - Reflections took 102 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:11:13,968 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:11:13,968 [Test worker] INFO  Application - Application started in 2.187 seconds.
+2025-01-17 05:11:13,969 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 05:11:16,523 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:11:16,641 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:11:16,724 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:11:16,798 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 05:11:16,800 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 05:11:44,831 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:11:45,267 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:11:45,396 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:11:45,415 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:11:45,483 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:11:45,539 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 05:11:45,595 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 05:11:45,605 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:11:45,631 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:11:45,632 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:11:45,637 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:11:45,654 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.024s)
+2025-01-17 05:11:45,805 [Test worker] INFO  org.reflections.Reflections - Reflections took 97 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:11:46,842 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:11:46,842 [Test worker] INFO  Application - Application started in 2.032 seconds.
+2025-01-17 05:11:46,842 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 05:11:49,367 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:11:49,480 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:11:49,556 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:11:49,626 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 05:11:49,627 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 05:14:43,463 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:14:43,910 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:14:44,039 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:14:44,059 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:14:44,123 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:14:44,180 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 05:14:44,249 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 05:14:44,260 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:14:44,288 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:14:44,288 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:14:44,294 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:14:44,312 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:14:44,459 [Test worker] INFO  org.reflections.Reflections - Reflections took 99 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:14:45,491 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:14:45,492 [Test worker] INFO  Application - Application started in 2.053 seconds.
+2025-01-17 05:14:45,493 [Test worker] INFO  Application - Application started: io.ktor.application.Application@550daba4
+2025-01-17 05:14:48,048 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:14:48,159 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:14:48,199 [eventLoopGroupProxy-4-3 @call-handler#9] ERROR InternalError - 
+java.lang.NullPointerException: null
+	at java.util.UUID.fromString(UUID.java:192)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:20)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:707)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:684)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:15)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2.invokeSuspend(BudgetService.kt:14)
+	at (Coroutine boundary.()
+	at mobi.sevenwinds.app.budget.BudgetApiKt$budget$1$1.invokeSuspend(BudgetApi.kt:21)
+	at com.papsign.ktor.openapigen.route.path.normal.NormalOpenAPIRoute$handle$1.invokeSuspend(NormalOpenAPIRoute.kt:26)
+	at com.papsign.ktor.openapigen.route.OpenAPIRoute$handle$2$2$1$2$1$1.invokeSuspend(OpenAPIRoute.kt:74)
+	at io.ktor.routing.Routing.executeResult(Routing.kt:154)
+	at io.ktor.routing.Routing$Feature$install$1.invokeSuspend(Routing.kt:107)
+	at io.ktor.features.ContentNegotiation$Feature$install$1.invokeSuspend(ContentNegotiation.kt:145)
+	at io.ktor.features.StatusPages$interceptCall$2.invokeSuspend(StatusPages.kt:102)
+	at io.ktor.features.StatusPages.interceptCall(StatusPages.kt:101)
+	at io.ktor.features.StatusPages$Feature$install$2.invokeSuspend(StatusPages.kt:142)
+	at io.ktor.features.CallLogging$Feature$install$2.invokeSuspend(CallLogging.kt:139)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$2.invokeSuspend(DefaultEnginePipeline.kt:127)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:123)
+Caused by: java.lang.NullPointerException: null
+	at java.util.UUID.fromString(UUID.java:192)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:20)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:707)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:684)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:15)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2.invokeSuspend(BudgetService.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2025-01-17 05:14:48,201 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 500 Internal Server Error: POST - /budget/add
+2025-01-17 05:14:48,242 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@550daba4
+2025-01-17 05:14:48,242 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@550daba4
+2025-01-17 05:15:41,335 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:15:41,777 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:15:41,907 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:15:41,927 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:15:41,992 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:15:42,053 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 05:15:42,110 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 05:15:42,120 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:15:42,146 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:15:42,146 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:15:42,152 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:15:42,167 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.023s)
+2025-01-17 05:15:42,320 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:15:43,335 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:15:43,335 [Test worker] INFO  Application - Application started in 2.026 seconds.
+2025-01-17 05:15:43,335 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 05:15:45,870 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:15:45,985 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:15:46,026 [eventLoopGroupProxy-4-3 @call-handler#9] ERROR InternalError - 
+java.lang.NullPointerException: null
+	at java.util.UUID.fromString(UUID.java:192)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:20)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:707)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:684)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:15)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2.invokeSuspend(BudgetService.kt:14)
+	at (Coroutine boundary.()
+	at mobi.sevenwinds.app.budget.BudgetApiKt$budget$1$1.invokeSuspend(BudgetApi.kt:21)
+	at com.papsign.ktor.openapigen.route.path.normal.NormalOpenAPIRoute$handle$1.invokeSuspend(NormalOpenAPIRoute.kt:26)
+	at com.papsign.ktor.openapigen.route.OpenAPIRoute$handle$2$2$1$2$1$1.invokeSuspend(OpenAPIRoute.kt:74)
+	at io.ktor.routing.Routing.executeResult(Routing.kt:154)
+	at io.ktor.routing.Routing$Feature$install$1.invokeSuspend(Routing.kt:107)
+	at io.ktor.features.ContentNegotiation$Feature$install$1.invokeSuspend(ContentNegotiation.kt:145)
+	at io.ktor.features.StatusPages$interceptCall$2.invokeSuspend(StatusPages.kt:102)
+	at io.ktor.features.StatusPages.interceptCall(StatusPages.kt:101)
+	at io.ktor.features.StatusPages$Feature$install$2.invokeSuspend(StatusPages.kt:142)
+	at io.ktor.features.CallLogging$Feature$install$2.invokeSuspend(CallLogging.kt:139)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$2.invokeSuspend(DefaultEnginePipeline.kt:127)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:123)
+Caused by: java.lang.NullPointerException: null
+	at java.util.UUID.fromString(UUID.java:192)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:20)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:707)
+	at org.jetbrains.exposed.dao.EntityClass.new(Entity.kt:684)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:15)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2$1.invoke(BudgetService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.budget.BudgetService$addRecord$2.invokeSuspend(BudgetService.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2025-01-17 05:15:46,028 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 500 Internal Server Error: POST - /budget/add
+2025-01-17 05:15:46,083 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 05:15:46,084 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 05:16:24,726 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:16:25,172 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:16:25,423 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:16:25,443 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:16:25,507 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:16:25,563 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.031s)
+2025-01-17 05:16:25,623 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 05:16:25,634 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:16:25,660 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:16:25,660 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:16:25,666 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:16:25,684 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:16:25,832 [Test worker] INFO  org.reflections.Reflections - Reflections took 100 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:16:26,882 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:16:26,882 [Test worker] INFO  Application - Application started in 2.177 seconds.
+2025-01-17 05:16:26,883 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 05:16:29,416 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:16:29,533 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:16:29,561 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:16:29,636 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:16:29,705 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 05:16:29,706 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 05:16:46,697 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:16:47,148 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:16:47,282 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:16:47,304 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:16:47,371 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:16:47,438 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.036s)
+2025-01-17 05:16:47,508 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 05:16:47,519 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:16:47,545 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:16:47,545 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:16:47,551 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:16:47,571 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.027s)
+2025-01-17 05:16:47,730 [Test worker] INFO  org.reflections.Reflections - Reflections took 114 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:16:48,776 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:16:48,776 [Test worker] INFO  Application - Application started in 2.105 seconds.
+2025-01-17 05:16:48,777 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 05:16:51,274 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:16:51,386 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:16:51,414 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:16:51,491 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:16:51,558 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 05:16:51,559 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 05:19:15,190 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:19:15,639 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:19:15,770 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:19:15,794 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:19:15,860 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:19:15,917 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.030s)
+2025-01-17 05:19:16,090 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 05:19:16,103 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:19:16,134 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:19:16,134 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:19:16,140 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:19:16,158 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.027s)
+2025-01-17 05:19:16,303 [Test worker] INFO  org.reflections.Reflections - Reflections took 98 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:19:17,330 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:19:17,330 [Test worker] INFO  Application - Application started in 2.166 seconds.
+2025-01-17 05:19:17,330 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 05:19:19,879 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:19:19,993 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:19:20,022 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:19:20,101 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:19:20,169 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 05:19:20,170 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 05:20:36,346 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:20:36,789 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:20:37,045 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:20:37,067 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:20:37,132 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:20:37,200 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.037s)
+2025-01-17 05:20:37,373 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 05:20:37,385 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:20:37,414 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:20:37,414 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:20:37,420 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:20:37,437 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 05:20:37,584 [Test worker] INFO  org.reflections.Reflections - Reflections took 101 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:20:38,630 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:20:38,630 [Test worker] INFO  Application - Application started in 2.307 seconds.
+2025-01-17 05:20:38,631 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 05:20:41,136 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:20:41,251 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:20:41,280 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:20:41,356 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:20:41,422 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 05:20:41,423 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 05:24:08,910 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:24:09,353 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:24:09,484 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:24:09,505 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:24:09,570 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:24:09,634 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.035s)
+2025-01-17 05:24:09,813 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.018s)
+2025-01-17 05:24:09,826 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:24:09,858 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:24:09,858 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:24:09,864 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:24:09,881 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:24:10,038 [Test worker] INFO  org.reflections.Reflections - Reflections took 106 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:24:11,138 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:24:11,138 [Test worker] INFO  Application - Application started in 2.25 seconds.
+2025-01-17 05:24:11,139 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 05:24:13,895 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:24:14,008 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:24:14,038 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:24:14,121 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:24:14,199 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 05:24:14,201 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 05:25:40,356 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:25:40,795 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:25:40,922 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:25:40,943 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:25:41,117 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:25:41,172 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.029s)
+2025-01-17 05:25:41,231 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 05:25:41,242 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:25:41,270 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:25:41,270 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:25:41,275 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:25:41,292 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.024s)
+2025-01-17 05:25:41,442 [Test worker] INFO  org.reflections.Reflections - Reflections took 104 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:25:42,474 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:25:42,474 [Test worker] INFO  Application - Application started in 2.14 seconds.
+2025-01-17 05:25:42,475 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 05:25:44,943 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:25:45,064 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:25:45,094 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:25:45,175 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:25:45,254 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 05:25:45,255 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 05:27:05,039 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:27:05,483 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:27:05,611 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:27:05,632 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:27:05,695 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:27:05,752 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.032s)
+2025-01-17 05:27:05,808 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 05:27:05,818 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:27:05,845 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:27:05,845 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:27:05,851 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:27:05,869 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:27:06,024 [Test worker] INFO  org.reflections.Reflections - Reflections took 108 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:27:07,044 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:27:07,044 [Test worker] INFO  Application - Application started in 2.026 seconds.
+2025-01-17 05:27:07,045 [Test worker] INFO  Application - Application started: io.ktor.application.Application@3e969b4b
+2025-01-17 05:27:09,512 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:27:09,622 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:27:09,651 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:27:09,728 [DefaultDispatcher-worker-2 @call-handler#13] WARN  Exposed - Transaction attempt #0 failed: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('e447822b-d6a6-4162-99a3-a472c1d601f5'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (e447822b-d6a6-4162-99a3-a472c1d601f5, null, null).  Call getNextException to see other errors in the batch.. Statement(s): INSERT INTO author_table (id) VALUES (?)
+org.jetbrains.exposed.exceptions.ExposedSQLException: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('e447822b-d6a6-4162-99a3-a472c1d601f5'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (e447822b-d6a6-4162-99a3-a472c1d601f5, null, null).  Call getNextException to see other errors in the batch.
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:61)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:183)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:125)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:29)
+	at org.jetbrains.exposed.sql.QueriesKt$batchInsert$2.invoke(Queries.kt:77)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert(Queries.kt:85)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert$default(Queries.kt:61)
+	at org.jetbrains.exposed.dao.EntityCache.flushInserts$exposed(Entity.kt:454)
+	at org.jetbrains.exposed.dao.EntityID.getValue(Entity.kt:26)
+	at org.jetbrains.exposed.dao.EntityID.toString(Entity.kt:34)
+	at mobi.sevenwinds.app.author.AuthorEntity.toResponse(AuthorTable.kt:18)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:31)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invokeSuspend(AuthorService.kt:24)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invoke(AuthorService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at mobi.sevenwinds.app.author.AuthorService.getAuthorById(AuthorService.kt:23)
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('e447822b-d6a6-4162-99a3-a472c1d601f5'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (e447822b-d6a6-4162-99a3-a472c1d601f5, null, null).  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:154)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2269)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:511)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:851)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:874)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:110)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:119)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:14)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:59)
+	... 34 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (e447822b-d6a6-4162-99a3-a472c1d601f5, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2533)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2268)
+	... 44 common frames omitted
+2025-01-17 05:27:09,733 [DefaultDispatcher-worker-2 @call-handler#13] WARN  Exposed - Transaction attempt #1 failed: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('896900ac-e7cb-4dcb-8273-e69afa9ceed9'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (896900ac-e7cb-4dcb-8273-e69afa9ceed9, null, null).  Call getNextException to see other errors in the batch.. Statement(s): INSERT INTO author_table (id) VALUES (?)
+org.jetbrains.exposed.exceptions.ExposedSQLException: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('896900ac-e7cb-4dcb-8273-e69afa9ceed9'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (896900ac-e7cb-4dcb-8273-e69afa9ceed9, null, null).  Call getNextException to see other errors in the batch.
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:61)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:183)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:125)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:29)
+	at org.jetbrains.exposed.sql.QueriesKt$batchInsert$2.invoke(Queries.kt:77)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert(Queries.kt:85)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert$default(Queries.kt:61)
+	at org.jetbrains.exposed.dao.EntityCache.flushInserts$exposed(Entity.kt:454)
+	at org.jetbrains.exposed.dao.EntityID.getValue(Entity.kt:26)
+	at org.jetbrains.exposed.dao.EntityID.toString(Entity.kt:34)
+	at mobi.sevenwinds.app.author.AuthorEntity.toResponse(AuthorTable.kt:18)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:31)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invokeSuspend(AuthorService.kt:24)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invoke(AuthorService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at mobi.sevenwinds.app.author.AuthorService.getAuthorById(AuthorService.kt:23)
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('896900ac-e7cb-4dcb-8273-e69afa9ceed9'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (896900ac-e7cb-4dcb-8273-e69afa9ceed9, null, null).  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:154)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2269)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:511)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:851)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:874)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:110)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:119)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:14)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:59)
+	... 34 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (896900ac-e7cb-4dcb-8273-e69afa9ceed9, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2533)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2268)
+	... 44 common frames omitted
+2025-01-17 05:27:09,736 [DefaultDispatcher-worker-2 @call-handler#13] WARN  Exposed - Transaction attempt #2 failed: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('5917d39f-951d-436f-b14c-7f840db2cab0'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).  Call getNextException to see other errors in the batch.. Statement(s): INSERT INTO author_table (id) VALUES (?)
+org.jetbrains.exposed.exceptions.ExposedSQLException: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('5917d39f-951d-436f-b14c-7f840db2cab0'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).  Call getNextException to see other errors in the batch.
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:61)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:183)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:125)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:29)
+	at org.jetbrains.exposed.sql.QueriesKt$batchInsert$2.invoke(Queries.kt:77)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert(Queries.kt:85)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert$default(Queries.kt:61)
+	at org.jetbrains.exposed.dao.EntityCache.flushInserts$exposed(Entity.kt:454)
+	at org.jetbrains.exposed.dao.EntityID.getValue(Entity.kt:26)
+	at org.jetbrains.exposed.dao.EntityID.toString(Entity.kt:34)
+	at mobi.sevenwinds.app.author.AuthorEntity.toResponse(AuthorTable.kt:18)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:31)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invokeSuspend(AuthorService.kt:24)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invoke(AuthorService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at mobi.sevenwinds.app.author.AuthorService.getAuthorById(AuthorService.kt:23)
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('5917d39f-951d-436f-b14c-7f840db2cab0'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:154)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2269)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:511)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:851)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:874)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:110)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:119)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:14)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:59)
+	... 34 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2533)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2268)
+	... 44 common frames omitted
+2025-01-17 05:27:09,748 [eventLoopGroupProxy-4-4 @call-handler#12] ERROR InternalError - 
+org.jetbrains.exposed.exceptions.ExposedSQLException: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('5917d39f-951d-436f-b14c-7f840db2cab0'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).  Call getNextException to see other errors in the batch.
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:61)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:183)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:125)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:29)
+	at org.jetbrains.exposed.sql.QueriesKt$batchInsert$2.invoke(Queries.kt:77)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert(Queries.kt:85)
+	at org.jetbrains.exposed.sql.QueriesKt.batchInsert$default(Queries.kt:61)
+	at org.jetbrains.exposed.dao.EntityCache.flushInserts$exposed(Entity.kt:454)
+	at org.jetbrains.exposed.dao.EntityID.getValue(Entity.kt:26)
+	at org.jetbrains.exposed.dao.EntityID.toString(Entity.kt:34)
+	at mobi.sevenwinds.app.author.AuthorEntity.toResponse(AuthorTable.kt:18)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:31)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2$1.invoke(AuthorService.kt:12)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:156)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$2.invoke(ThreadLocalTransactionManager.kt:197)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:196)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:134)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:205)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:106)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:104)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:103)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invokeSuspend(AuthorService.kt:24)
+	at mobi.sevenwinds.app.author.AuthorService$getAuthorById$2.invoke(AuthorService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at mobi.sevenwinds.app.author.AuthorService.getAuthorById(AuthorService.kt:23)
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO author_table (id) VALUES ('5917d39f-951d-436f-b14c-7f840db2cab0'::uuid)
+RETURNING * was aborted: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).  Call getNextException to see other errors in the batch.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:154)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2269)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:511)
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:851)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:874)
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1569)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:110)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:119)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:14)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed(Statement.kt:59)
+	... 34 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: нулевое значение в столбце "full_name" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (5917d39f-951d-436f-b14c-7f840db2cab0, null, null).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2533)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2268)
+	... 44 common frames omitted
+2025-01-17 05:27:09,749 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 500 Internal Server Error: GET - /budget/year/2020/stats
+2025-01-17 05:27:09,809 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@3e969b4b
+2025-01-17 05:27:09,810 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@3e969b4b
+2025-01-17 05:28:27,581 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:28:28,028 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:28:28,157 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:28:28,179 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:28:28,271 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:28:28,342 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.038s)
+2025-01-17 05:28:28,421 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.020s)
+2025-01-17 05:28:28,433 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:28:28,469 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:28:28,469 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:28:28,476 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:28:28,496 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.030s)
+2025-01-17 05:28:28,676 [Test worker] INFO  org.reflections.Reflections - Reflections took 122 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:28:29,871 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:28:29,871 [Test worker] INFO  Application - Application started in 2.314 seconds.
+2025-01-17 05:28:29,871 [Test worker] INFO  Application - Application started: io.ktor.application.Application@5d9df9f
+2025-01-17 05:28:32,363 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:28:32,478 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:28:32,507 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:28:32,587 [eventLoopGroupProxy-4-4 @call-handler#12] ERROR InternalError - 
+java.lang.NullPointerException: null
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at (Coroutine boundary.()
+	at mobi.sevenwinds.app.budget.BudgetApiKt$budget$1$2$1.invokeSuspend(BudgetApi.kt:26)
+	at com.papsign.ktor.openapigen.route.path.normal.NormalOpenAPIRoute$handle$2.invokeSuspend(NormalOpenAPIRoute.kt:37)
+	at com.papsign.ktor.openapigen.route.OpenAPIRoute$handle$2$2$1$1.invokeSuspend(OpenAPIRoute.kt:65)
+	at io.ktor.routing.Routing.executeResult(Routing.kt:154)
+	at io.ktor.routing.Routing$Feature$install$1.invokeSuspend(Routing.kt:107)
+	at io.ktor.features.ContentNegotiation$Feature$install$1.invokeSuspend(ContentNegotiation.kt:145)
+	at io.ktor.features.StatusPages$interceptCall$2.invokeSuspend(StatusPages.kt:102)
+	at io.ktor.features.StatusPages.interceptCall(StatusPages.kt:101)
+	at io.ktor.features.StatusPages$Feature$install$2.invokeSuspend(StatusPages.kt:142)
+	at io.ktor.features.CallLogging$Feature$install$2.invokeSuspend(CallLogging.kt:139)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$2.invokeSuspend(DefaultEnginePipeline.kt:127)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:123)
+Caused by: java.lang.NullPointerException: null
+	at mobi.sevenwinds.app.budget.BudgetService$getYearStats$2$1$3.invokeSuspend(BudgetService.kt:71)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2025-01-17 05:28:32,588 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 500 Internal Server Error: GET - /budget/year/2020/stats
+2025-01-17 05:28:32,636 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@5d9df9f
+2025-01-17 05:28:32,637 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@5d9df9f
+2025-01-17 05:30:54,889 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 05:30:55,331 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 05:30:55,458 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 05:30:55,478 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 05:30:55,546 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 05:30:55,608 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 05:30:55,675 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.014s)
+2025-01-17 05:30:55,685 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 05:30:55,712 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 05:30:55,713 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 05:30:55,718 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 05:30:55,737 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 05:30:55,890 [Test worker] INFO  org.reflections.Reflections - Reflections took 103 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 05:30:56,902 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 05:30:56,903 [Test worker] INFO  Application - Application started in 2.037 seconds.
+2025-01-17 05:30:56,903 [Test worker] INFO  Application - Application started: io.ktor.application.Application@77da1d6d
+2025-01-17 05:30:59,380 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 05:30:59,487 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:30:59,515 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 05:30:59,599 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 05:30:59,656 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@77da1d6d
+2025-01-17 05:30:59,657 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@77da1d6d
+2025-01-17 07:53:39,509 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 07:53:40,040 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 07:53:40,201 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 07:53:40,225 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 07:53:40,305 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 07:53:40,394 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.045s)
+2025-01-17 07:53:40,455 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.015s)
+2025-01-17 07:53:40,469 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 07:53:40,501 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 07:53:40,502 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 07:53:40,507 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 07:53:40,527 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.028s)
+2025-01-17 07:53:40,706 [Test worker] INFO  org.reflections.Reflections - Reflections took 119 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 07:53:41,885 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 07:53:41,885 [Test worker] INFO  Application - Application started in 2.403 seconds.
+2025-01-17 07:53:41,885 [Test worker] INFO  Application - Application started: io.ktor.application.Application@1df84bd9
+2025-01-17 07:53:44,683 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 400 Bad Request: POST - /budget/add
+2025-01-17 07:53:44,781 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 400 Bad Request: POST - /budget/add
+2025-01-17 07:53:44,886 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:44,937 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:44,964 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:44,988 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,011 [eventLoopGroupProxy-4-7 @call-handler#21] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,036 [eventLoopGroupProxy-4-8 @call-handler#24] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,075 [eventLoopGroupProxy-4-9 @call-handler#27] INFO  Application - 404 Not Found: GET - /budget/year/2020/stats
+2025-01-17 07:53:45,190 [eventLoopGroupProxy-4-10 @call-handler#30] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 07:53:45,214 [eventLoopGroupProxy-4-11 @call-handler#33] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,236 [eventLoopGroupProxy-4-12 @call-handler#36] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,427 [eventLoopGroupProxy-4-1 @call-handler#39] INFO  Application - 404 Not Found: GET - /budget/year/2020/stats
+2025-01-17 07:53:45,451 [eventLoopGroupProxy-4-2 @call-handler#42] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,472 [eventLoopGroupProxy-4-3 @call-handler#45] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,501 [eventLoopGroupProxy-4-4 @call-handler#48] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,523 [eventLoopGroupProxy-4-5 @call-handler#51] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,547 [eventLoopGroupProxy-4-6 @call-handler#54] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:53:45,561 [eventLoopGroupProxy-4-7 @call-handler#57] INFO  Application - 404 Not Found: GET - /budget/year/2020/stats
+2025-01-17 07:53:45,589 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@1df84bd9
+2025-01-17 07:53:45,590 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@1df84bd9
+2025-01-17 07:54:03,212 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 07:54:03,650 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 07:54:03,780 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 07:54:03,801 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 07:54:03,865 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 07:54:03,922 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.032s)
+2025-01-17 07:54:03,979 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 07:54:03,989 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 07:54:04,016 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 07:54:04,016 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 07:54:04,022 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 07:54:04,041 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.027s)
+2025-01-17 07:54:04,192 [Test worker] INFO  org.reflections.Reflections - Reflections took 104 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 07:54:05,241 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 07:54:05,241 [Test worker] INFO  Application - Application started in 2.051 seconds.
+2025-01-17 07:54:05,242 [Test worker] INFO  Application - Application started: io.ktor.application.Application@18f7fccb
+2025-01-17 07:54:07,823 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 07:54:07,913 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 07:54:07,959 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@18f7fccb
+2025-01-17 07:54:07,961 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@18f7fccb
+2025-01-17 07:54:35,757 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 07:54:36,206 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 07:54:36,343 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 07:54:36,364 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 07:54:36,429 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 07:54:36,488 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.034s)
+2025-01-17 07:54:36,546 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.013s)
+2025-01-17 07:54:36,557 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 07:54:36,586 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 07:54:36,586 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 07:54:36,592 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 07:54:36,610 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.026s)
+2025-01-17 07:54:36,774 [Test worker] INFO  org.reflections.Reflections - Reflections took 110 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 07:54:37,854 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 07:54:37,855 [Test worker] INFO  Application - Application started in 2.121 seconds.
+2025-01-17 07:54:37,855 [Test worker] INFO  Application - Application started: io.ktor.application.Application@b4ffa78
+2025-01-17 07:54:40,322 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 400 Bad Request: POST - /budget/add
+2025-01-17 07:54:40,414 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 400 Bad Request: POST - /budget/add
+2025-01-17 07:54:40,511 [eventLoopGroupProxy-4-3 @call-handler#9] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,556 [eventLoopGroupProxy-4-4 @call-handler#12] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,581 [eventLoopGroupProxy-4-5 @call-handler#15] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,604 [eventLoopGroupProxy-4-6 @call-handler#18] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,627 [eventLoopGroupProxy-4-7 @call-handler#21] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,650 [eventLoopGroupProxy-4-8 @call-handler#24] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:40,723 [eventLoopGroupProxy-4-9 @call-handler#27] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 07:54:40,802 [eventLoopGroupProxy-4-10 @call-handler#31] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 07:54:40,996 [eventLoopGroupProxy-4-11 @call-handler#34] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,016 [eventLoopGroupProxy-4-12 @call-handler#37] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,043 [eventLoopGroupProxy-4-1 @call-handler#40] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 07:54:41,067 [eventLoopGroupProxy-4-2 @call-handler#44] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,085 [eventLoopGroupProxy-4-3 @call-handler#47] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,112 [eventLoopGroupProxy-4-4 @call-handler#50] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,134 [eventLoopGroupProxy-4-5 @call-handler#53] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,156 [eventLoopGroupProxy-4-6 @call-handler#56] INFO  Application - 200 OK: POST - /budget/add
+2025-01-17 07:54:41,176 [eventLoopGroupProxy-4-7 @call-handler#59] INFO  Application - 200 OK: GET - /budget/year/2020/stats
+2025-01-17 07:54:41,199 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@b4ffa78
+2025-01-17 07:54:41,200 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@b4ffa78
+2025-01-17 07:54:47,842 [Test worker] INFO  Application - Autoreload is disabled because the development mode is off.
+2025-01-17 07:54:48,284 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-17 07:54:48,412 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-17 07:54:48,433 [Test worker] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2025-01-17 07:54:48,496 [Test worker] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:postgresql://localhost:45533/dev_mem (PostgreSQL 12.22)
+2025-01-17 07:54:48,563 [Test worker] INFO  o.f.core.internal.command.DbClean - Successfully cleaned schema "public" (execution time 00:00.040s)
+2025-01-17 07:54:48,634 [Test worker] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.016s)
+2025-01-17 07:54:48,648 [Test worker] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2025-01-17 07:54:48,676 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2025-01-17 07:54:48,676 [Test worker] WARN  o.f.core.internal.command.DbMigrate - outOfOrder mode is active. Migration of schema "public" may not be reproducible.
+2025-01-17 07:54:48,682 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "public" to version 1 - Budget
+2025-01-17 07:54:48,698 [Test worker] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema "public" (execution time 00:00.025s)
+2025-01-17 07:54:48,850 [Test worker] INFO  org.reflections.Reflections - Reflections took 104 ms to scan 1 urls, producing 96 keys and 1173 values 
+2025-01-17 07:54:49,898 [Test worker] INFO  Application - Responding at http://127.0.0.1:8080
+2025-01-17 07:54:49,898 [Test worker] INFO  Application - Application started in 2.078 seconds.
+2025-01-17 07:54:49,899 [Test worker] INFO  Application - Application started: io.ktor.application.Application@444ce8b5
+2025-01-17 07:54:52,389 [eventLoopGroupProxy-4-1 @call-handler#3] INFO  Application - 200 OK: POST - /author/add
+2025-01-17 07:54:52,475 [eventLoopGroupProxy-4-2 @call-handler#6] INFO  Application - 404 Not Found: GET - /author/
+2025-01-17 07:54:52,523 [Thread-5] INFO  Application - Application stopping: io.ktor.application.Application@444ce8b5
+2025-01-17 07:54:52,524 [Thread-5] INFO  Application - Application stopped: io.ktor.application.Application@444ce8b5
